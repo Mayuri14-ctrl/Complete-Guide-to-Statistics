@@ -35,10 +35,14 @@ z score= 67-70/ se
 p value
 
 
-Q8 what are Probability distributions
-Q9 What is Bernolli distribution
-Q10 What is Binomial distribution
-Q11 What is Poisson's distribution
+Q8 what are Probability distributions: it is the all probability of all possible outcomes of a variable
+Q9 What is Bernolli distribution: There are only two possible outcome: A Fair coin
+Q10 What is Binomial distribution: When a experimented is repeated over number of times and all are independent, A coin is tossed 10 times
+Q11 What is Poisson's distribution: Probabiliy of number of event over a fixed period of time. No of customers call per minute
+Continuous Distribution
+Q12 What is Normal Distribution
+Q13 what is exponential distribution: model the time between two events. If a store receives customers at a rate of 10 per hour , the probability that the next customer arrives after 10 minutes is:
+A14 What is uniform distribution: All values in a given range are equally likely
 Q12 What is A/B testing
 A/B testing is an experiment where two versions (A & B) of a webpage, feature, or product are compared to determine which performs better based on statistical evidence.
 
@@ -52,9 +56,23 @@ probility of getting values as extreme as obeserved when null hypothesis is true
 
 Q16  What is Bayesian Statistics? How is it different from Frequentist Statistics?
 
-Q17 What is t test and z tets
+Q17 What is t test and z test
 t test is when population variance is unknown and sample size <30
+var=sum((x-m)**2 for x in data)/len(data)
+SD=sqrt(var)
+t_stat=(x_mean-pop_mean)/(SD/n**0.5)
 
+How do you manually perform a two-sample t-test to compare means of two independent samples?
+((s1**2)/n)+((s2**2)/n)**0.5
+
+Manual Calculation of Z-Test and T-Test for Proportions
+(p1-p2)/SE
+pooled proportion=(x1+x2)/(n1+n2)
+SE=(pool(1-pool)*(1/n1+1/n2))**0.5
+1. t-test, based on t distibution, check degree of freedom, at Alpha=0.05 significance level, critical value of z score is +-2.045,we fail to reject 𝐻0
+   df=min(n2-1,n1-1)
+3. for z test , at Alpha=0.05 significance level, critical value of z score is +-1.96,we fail to reject 𝐻0
+   
 Q18 paired vs. unpaired t-test?
 Q19 What is ANOVA, and how does it differ from a t-test?
 
