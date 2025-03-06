@@ -75,9 +75,33 @@ SE=(pool(1-pool)*(1/n1+1/n2))**0.5
    
 Q18 paired vs. unpaired t-test?
 Q19 What is ANOVA, and how does it differ from a t-test?
+It checks if the differences between groups means are statistically significant or just due to random variation
+Use cases:
+1. Companies use ANOVA to measure effectiveness of different campaigns
+2. It helps to identify if different customer demographies have different purchasing behaviour
+One way Anova: examines impact of one independent variable on a dependent variable across 2-3 groups
+Two-way Anova: examines impact of two independent variable on a dependent variable across 2-3 groups
+Repeated measures Anova:When same subjects are tested multiple times
+Lets assume there are three groups
+mean1
+mean2
+mean3
+mean_overall=
+
+Sum of squares within group
+Sum of squares between group
+
+mean of sum of squares
+MSB
+MSW
+
+f value=MSB/MSW
 
 Q20 What is the difference between one-way and two-way ANOVA?
 Q21 What is a Chi-square test, and when is it used?
+To understand if there is any association between two categorical variables
+It compares observed data and expected data
+(O-E)**2/E
 Q22 What is a Mann-Whitney U test? How does it differ from a t-test?
 Q23  What is the Wilcoxon Signed-Rank Test?
 Test Type                     	         Parametric Test	                             Non-Parametric Alternative
